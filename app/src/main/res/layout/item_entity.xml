@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="16dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginTop="12dp">
+
+    <TextView
+        android:id="@+id/itemConcept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Theory of Relativity"
+        android:textColor="#2B2B26"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/itemScientist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Albert Einstein"
+        android:textColor="#4A5D4E"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/itemFieldYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Physics · 1915"
+        android:textColor="#6E6E66"
+        android:textSize="13sp"
+        android:layout_marginTop="6dp" />
+
+    <TextView
+        android:id="@+id/itemBranch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Theoretical Physics"
+        android:textColor="#6E6E66"
+        android:textSize="13sp"
+        android:layout_marginTop="2dp" />
+
+</LinearLayout>

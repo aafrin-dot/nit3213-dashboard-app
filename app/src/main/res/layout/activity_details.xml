@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FAF8F3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/detailsConcept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Theory of Relativity"
+            android:textColor="#2B2B26"
+            android:textSize="26sp"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/detailsScientist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Albert Einstein"
+            android:textColor="#4A5D4E"
+            android:textSize="16sp"
+            android:layout_marginTop="6dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DCE3E0"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FIELD"
+            android:textColor="#6E6E66"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/detailsField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Physics"
+            android:textColor="#2B2B26"
+            android:textSize="16sp"
+            android:layout_marginTop="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BRANCH"
+            android:textColor="#6E6E66"
+            android:textSize="11sp"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/detailsBranch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Theoretical Physics"
+            android:textColor="#2B2B26"
+            android:textSize="16sp"
+            android:layout_marginTop="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YEAR PROPOSED"
+            android:textColor="#6E6E66"
+            android:textSize="11sp"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/detailsYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1915"
+            android:textColor="#2B2B26"
+            android:textSize="16sp"
+            android:layout_marginTop="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DESCRIPTION"
+            android:textColor="#6E6E66"
+            android:textSize="11sp"
+            android:layout_marginTop="24dp" />
+
+        <TextView
+            android:id="@+id/detailsDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A theory describing the relationship between space and time."
+            android:textColor="#2B2B26"
+            android:textSize="15sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="32dp" />
+
+    </LinearLayout>
+
+</ScrollView>
