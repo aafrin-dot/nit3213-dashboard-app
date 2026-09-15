@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.a8057043assignment2.R
 import com.example.a8057043assignment2.ui.details.DetailsActivity
@@ -24,6 +25,7 @@ class DashboardActivity : AppCompatActivity() {
         setContentView(R.layout.activity_dashboard)
 
         recyclerView = findViewById(R.id.entityRecyclerView)
+        recyclerView.layoutManager = LinearLayoutManager(this)
         errorText = findViewById(R.id.dashboardError)
 
         adapter = EntityAdapter { entity ->

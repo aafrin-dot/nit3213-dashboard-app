@@ -1,4 +1,5 @@
 package com.example.a8057043assignment2.ui.login
+
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.a8057043assignment2.data.repository.LoginRepository
@@ -15,6 +16,7 @@ class LoginViewModel(private val repository: LoginRepository) : ViewModel() {
     val errorState: StateFlow<String?> = _errorState
 
     fun login(username: String, password: String) {
+        _errorState.value = null
         viewModelScope.launch {
             try {
                 val response = repository.login(username, password)
