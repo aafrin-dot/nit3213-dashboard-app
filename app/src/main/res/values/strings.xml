@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">8057043Assignment2</string>
+
+    <!-- Login screen -->
+    <string name="login_wordmark">NIT3213</string>
+    <string name="login_tagline">Dashboard App</string>
+    <string name="login_welcome">Welcome</string>
+    <string name="login_subtitle">Sign in to continue</string>
+    <string name="login_username_hint">Student ID</string>
+    <string name="login_password_hint">First Name</string>
+    <string name="login_button">Login</string>
+
+    <!-- Dashboard screen -->
+    <string name="dashboard_title">Science</string>
+    <string name="dashboard_subtitle">Concepts and discoveries</string>
 </resources>
