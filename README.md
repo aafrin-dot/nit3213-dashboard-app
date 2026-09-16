@@ -32,16 +32,28 @@ Run with: gradlew testDebugUnitTest
 
 
 MainActivity — login
+
 DashboardActivity — displays the list
+
 DetailsActivity — displays item details
+
 LoginViewModel — handles login and stores the keypass
+
 DashboardViewModel — fetches and holds the list
+
 EntityAdapter — converts the list into rows
+
 ApiService — defines API endpoints
+
 RetrofitClient — configures the server and Retrofit
+
 LoginRepository — handles all server calls
+
 Entity, LoginResponse, DashboardResponse — data models
+
 AppModule — configures Koin dependencies
+
 MainApplication — starts Koin
+
 Tests — 9 ViewModel unit tests in app/src/test/
 
