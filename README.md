@@ -29,3 +29,19 @@ Testing
 9 unit tests across both ViewModels. MockK replaces the repository so nothing hits the network. They cover successful and failed responses, empty states, and that typed credentials reach the repository unchanged.
 
 Run with: gradlew testDebugUnitTest
+
+
+MainActivity — login
+DashboardActivity — displays the list
+DetailsActivity — displays item details
+LoginViewModel — handles login and stores the keypass
+DashboardViewModel — fetches and holds the list
+EntityAdapter — converts the list into rows
+ApiService — defines API endpoints
+RetrofitClient — configures the server and Retrofit
+LoginRepository — handles all server calls
+Entity, LoginResponse, DashboardResponse — data models
+AppModule — configures Koin dependencies
+MainApplication — starts Koin
+Tests — 9 ViewModel unit tests in app/src/test/
+
